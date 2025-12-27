@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 # --- MySQL Credentials ---
 USER = "root"
-PASSWORD = "harsh"
+PASSWORD = "Hamza%402005"
 HOST = "localhost"
 DATABASE = "gearguard"
 

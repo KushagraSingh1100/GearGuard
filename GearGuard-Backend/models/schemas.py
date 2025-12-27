@@ -6,6 +6,14 @@ class UserBase(BaseModel):
     name: str
     role: str
 
+
+class TeamCreate(BaseModel):
+    team_name: str
+
+class TeamMemberCreate(BaseModel):
+    team_id: int
+    user_id: int
+    
 class UserResponse(UserBase):
     user_id: int
     class Config: orm_mode = True
